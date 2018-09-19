@@ -1,0 +1,14 @@
+<template name="nameRecord">
+  
+  <tr>
+    <td class="{{#if checked}}checked{{/if}}"> 
+    <input type="checkbox" checked="{{checked}}" class="toggle-checked" value="{{_id}}" />
+	</td>
+    <td class="row-click"> {{firstname}} </td>
+    <td class="row-click"> {{lastname}} </td>
+    <td class="row-click"> {{gender}} </td>
+    <td class="row-click"> {{bdy}}  </td>
+   <td> <button class="delete">&times;</button> </td>
+  </tr>
+ 
+</template>
